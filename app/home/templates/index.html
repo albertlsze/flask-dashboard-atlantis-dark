@@ -12,18 +12,18 @@
 			<div class="page-inner py-5">
 				<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
 					<div>
-						<h2 class="text-white pb-2 fw-bold">Dashboard</h2>
-						<h5 class="text-white op-7 mb-2">Free Bootstrap 4 Admin Dashboard</h5>
+						<h2 class="text-white pb-2 fw-bold">Song Analyzer Dashboard</h2>
+						<h5 class="text-white op-7 mb-2">Song Analyzer</h5>
 					</div>
-					<div class="ml-md-auto py-2 py-md-0">
+					<!--<div class="ml-md-auto py-2 py-md-0">
 						<a href="#" class="btn btn-white btn-border btn-round mr-2">Manage</a>
 						<a href="#" class="btn btn-secondary btn-round">Add Customer</a>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</div>
 		<div class="page-inner mt--5">
-			<div class="row mt--2">
+			<!--<div class="row mt--2">
 				<div class="col-md-6">
 					<div class="card full-height">
 						<div class="card-body">
@@ -70,13 +70,13 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
 							<div class="card-head-row">
-								<div class="card-title">User Statistics</div>
+								<div class="card-title">Song Attributes</div>
 								<div class="card-tools">
 									<a href="#" class="btn btn-info btn-border btn-round btn-sm mr-2">
 										<span class="btn-label">
@@ -101,7 +101,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<!--<div class="col-md-4">
 					<div class="card card-primary">
 						<div class="card-header">
 							<div class="card-title">Daily Sales</div>
@@ -126,14 +126,14 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 			<div class="row row-card-no-pd">
 				<div class="col-md-12">
 					<div class="card">
 						<div class="card-header">
 							<div class="card-head-row card-tools-still-right">
-								<h4 class="card-title">Users Geolocation</h4>
+								<h4 class="card-title">Songs</h4>
 								<div class="card-tools">
 									<button class="btn btn-icon btn-link btn-primary btn-xs"><span class="fa fa-angle-down"></span></button>
 									<button class="btn btn-icon btn-link btn-primary btn-xs btn-refresh-card"><span class="fa fa-sync-alt"></span></button>
@@ -141,20 +141,32 @@
 								</div>
 							</div>
 							<p class="card-category">
-							Map of the distribution of users around the world</p>
+							<div class="collapse" id="search-nav">
+								<form class="content-search mr-md-3">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<button type="submit" class="btn btn-search pr-1">
+												<i class="fa fa-search search-icon"></i>
+											</button>
+										</div>
+										<input type="text" placeholder="Search ..." class="form-control">
+									</div>
+								</form>
+							</div>
+							<!--Map of the distribution of users around the world</p>-->
 						</div>
 						<div class="card-body">
 							<div class="row">
-								<div class="col-md-6">
+								<div class="col-md-12">
 									<div class="table-responsive table-hover table-sales">
 										<table class="table">
 											<tbody>
 												<tr>
-													<td>
+													<!--<td>
 														<div class="flag">
 															<img src="/static/assets/img/flags/id.png" alt="indonesia">
 														</div>
-													</td>
+													</td>-->
 													<td>Indonesia</td>
 													<td class="text-right">
 														2.320
@@ -164,11 +176,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td>
+													<!--<td>
 														<div class="flag">
 															<img src="/static/assets/img/flags/us.png" alt="united states">
 														</div>
-													</td>
+													</td>-->
 													<td>USA</td>
 													<td class="text-right">
 														240
@@ -178,11 +190,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td>
+													<!--<td>
 														<div class="flag">
 															<img src="/static/assets/img/flags/au.png" alt="australia">
 														</div>
-													</td>
+													</td>-->
 													<td>Australia</td>
 													<td class="text-right">
 														119
@@ -192,11 +204,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td>
+													<!--<td>
 														<div class="flag">
 															<img src="/static/assets/img/flags/ru.png" alt="russia">
 														</div>
-													</td>
+													</td>-->
 													<td>Russia</td>
 													<td class="text-right">
 														1.081
@@ -206,11 +218,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td>
+													<!--<td>
 														<div class="flag">
 															<img src="/static/assets/img/flags/cn.png" alt="china">
 														</div>
-													</td>
+													</td>-->
 													<td>China</td>
 													<td class="text-right">
 														1.100
@@ -220,11 +232,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td>
+													<!--<td>
 														<div class="flag">
 															<img src="/static/assets/img/flags/br.png" alt="brazil">
 														</div>
-													</td>
+													</td>-->
 													<td>Brasil</td>
 													<td class="text-right">
 														640
@@ -238,9 +250,9 @@
 									</div>
 								</div>
 								<div class="col-md-6">
-									<div class="mapcontainer">
+									<!--<div class="mapcontainer">
 										<div id="map-example" class="vmap"></div>
-									</div>
+									</div>-->
 								</div>
 							</div>
 						</div>
